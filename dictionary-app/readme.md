@@ -7,7 +7,7 @@ This is a simple React app that allows you to search for word definitions using 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ASWINKMANOJ/React-practice-problems/tree/03fecfde34450959665bdb8eea6964bee5e82f7b/dictionary-app
 
     Navigate to the project directory:
 
