@@ -21,9 +21,7 @@ This is a simple React app that allows you to search for word definitions using 
 
     Start the development server:
 
-    bash
-
-    npm start
+    bash: npm start
 
     This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
 
