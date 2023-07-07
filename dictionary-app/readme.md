@@ -11,17 +11,13 @@ This is a simple React app that allows you to search for word definitions using 
 
     Navigate to the project directory:
 
-    bash
+    bash: cd dictionary-app
 
-cd dictionary-app
+2. Install the dependencies:
+   ```bash
+   bash: npm install
 
-Install the dependencies:
-
-bash
-
-    npm install
-
-Usage
+3.Usage
 
     Start the development server:
 
@@ -35,7 +31,7 @@ Usage
 
     The app will display the definition of the word if available.
 
-Built With
+4.Built With
 
     React - JavaScript library for building user interfaces
     React Query - Data fetching and state management library for React
