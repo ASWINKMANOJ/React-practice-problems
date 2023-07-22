@@ -32,7 +32,7 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className=' w-full h-screen flex flex-col items-center justify-center bg-neutral-950'>
+      <div className=' w-full h-screen flex flex-col items-center justify-center bg-neutral-950 md:[flex-col]'>
         <SkeletonTheme baseColor='#333' highlightColor='#666'>
           <div style={{ width: "10%", height: "20%", paddingTop: "10%" }}><Skeleton /></div>
         </SkeletonTheme>
@@ -50,7 +50,7 @@ function App() {
     );
   } else {
     return (
-      <div className=' w-full h-screen flex flex-col bg-neutral-950'>
+      <div className=' w-full h-screen flex flex-col bg-neutral-950 items-center justify-between'>
         <Search setSearch={setSearch} />
         <MainPage data={data?.data} />
       </div>

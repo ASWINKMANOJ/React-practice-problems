@@ -12,7 +12,7 @@ function MainPage({ data }) {
     const adjective = data[0].meanings[3]?.definitions[0].definition || "no adjective"
     const adjectiveExample = data[0].meanings[3]?.definitions[0].example || null;
     return (
-        <div className=' w-full h-full flex items-center justify-center bg-neutral-950'>
+        <div className='w-full h-full flex items-center justify-center bg-neutral-950 max-[640px]:flex-col'>
             <Word partOfSpeech="verb" definition={verb} example={verbExample} />
             <Word partOfSpeech="noun" definition={noun} example={nounExample} />
             <Word partOfSpeech="adjective" definition={adjective} example={adjectiveExample} />
